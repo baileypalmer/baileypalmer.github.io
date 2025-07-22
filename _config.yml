@@ -1,0 +1,16 @@
+# Site settings
+# Forked from skestelman.github.io. Thanks, Steph! 
+theme: jekyll-theme-minimal
+title: Bailey Palmer
+email: bailey.palmer@berkeley.edu
+Description: Academic website
+#url: "http:///ckw.github.io" # the base hostname & protocol for this site
+permalink: /blog/:year/:month/:title.html
+gems:
+    - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+
+url: ""          # Leave empty for local dev
+baseurl: ""      # Leave empty unless your site is in a subdirectory
