@@ -1,0 +1,11 @@
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+
+which ruby
+# should be /usr/local/opt/ruby/bin/ruby
+
+ruby -v
+# should be ruby 3.x.x
+
+gem install bundler
+bundle exec jekyll serve
