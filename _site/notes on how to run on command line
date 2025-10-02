@@ -9,3 +9,12 @@ ruby -v
 
 gem install bundler
 bundle exec jekyll serve
+
+cd /Users/isabelbailey/Dropbox/PhD/baileypalmer.github.io
+
+check gem file exists
+ls Gemfile
+
+bundle install
+bundle exec jekyll serve
+
