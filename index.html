@@ -2,308 +2,146 @@
 <html lang="en-US">
   <head>
 
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL4TY7YXTJ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
+
     gtag('config', 'G-JL4TY7YXTJ');
   </script>
-
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- pull in fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap">
 
+    <title>Bailey Palmer | Economics</title>
+    <meta name="description" content="I study labor market issues in developing countries.">
+    <meta property="og:title" content="Bailey Palmer | Economics">
+    <meta property="og:site_name" content="Bailey Palmer">
+    <meta property="og:description" content="I study labor market issues in developing countries.">
+    <meta property="og:url" content="https://baileypalmer.github.io/">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Bailey Palmer">
 
-  <title>Bailey Palmer | Economics</title>
-  <meta name="description" content="I study labor market issues in developing countries.">
-  <meta property="og:title" content="Bailey Palmer | Economics">
-  <meta property="og:site_name" content="Bailey Palmer">
-  <meta property="og:description" content="I study labor market issues in developing countries.">
-  <meta property="og:url" content="https://baileypalmer.github.io/">
-  <meta property="og:type" content="website">
-  <meta name="author" content="Bailey Palmer">
-
-
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="sidebar">
-        <h1>Bailey Palmer</h1>
-        
+
+    <header class="site-header">
+      <a class="wordmark" href="/">Bailey Palmer</a>
+      <nav class="primary-nav">
         <a href="/">Home</a>
+        <a href="#research">Research</a>
+        <a href="misc.html">Misc</a>
         <a href="/research/Bailey_Palmer_Faculty_CV.pdf">CV</a>
-        <a href="/misc.html">Misc</a>
-        
-        <!-- <img src="image/Palmer.Bailey2.jpg" alt="Bailey Palmer profile picture"> -->
-      </div>
-      
-      <div class="content">
+      </nav>
+    </header>
+    <hr class="header-rule">
 
-        <!-- isolate the headshot  -->
-<!--         <div class="headshot-container">
-          <img src="image/Palmer.Bailey2.jpg" alt="Bailey Palmer profile picture" class="headshot">
-        </div> -->
-        <!-- isolate the headshot  -->
-        <div class="headshot-container" style="display: flex; justify-content: center; margin: 0 auto 2rem;">
-          <img src="image/Palmer.Bailey2.jpg" alt="Bailey Palmer profile picture" class="headshot" style="width: 100%; max-width: 400px; height: auto;">
+    <main class="page">
+      <section class="block" id="home">
+        <h1 class="name">Bailey Palmer</h1>
+
+        <div class="hero-row">
+          <div class="hero-text">
+            <div class="intro">
+              <p>Beginning in Fall 2026, I will join the University of Illinois at Urbana&ndash;Champaign as an Assistant Professor in the School of Labor &amp; Employment Relations and Department of Economics. I study labor market issues in developing countries.</p>
+              <p>I received my PhD in Economics from UC Berkeley in May 2026. Prior to starting my PhD, I worked as a research assistant in the Industrial Relations Section at Princeton University and earned a Bachelors of Arts in Arabic and Economics from the University of Georgia.</p>
+            </div>
+
+            <div class="pill-row">
+              <a class="pill pill-accent" href="/research/Bailey_Palmer_Faculty_CV.pdf">Curriculum Vitae</a>
+              <a class="pill" href="mailto:ibpalmer@illinois.edu">ibpalmer [at] illinois.edu</a>
+            </div>
+          </div>
+
+          <div class="hero-photo">
+            <img src="image/baileypalmer_2rectangle.jpeg" alt="Bailey Palmer">
+          </div>
         </div>
-        
+      </section>
 
-        <p>
-        Beginning in Fall 2026, I will join the University of Illinois at Urbana-Champaign as an Assistant Professor in the School of Labor & Employment Relations and Department of Economics. I study labor market issues in developing countries.
-        </p>
+      <hr class="divider">
 
-        <p>
-        I received my PhD in Economics from UC Berkeley in May 2026. Prior to starting my PhD, I worked as a research assistant in the Industrial Relations Section at Princeton University and earned a Bachelors of Arts in Arabic and Economics from the University of Georgia.
-        </p>
+      <section class="block" id="research">
+        <p class="eyebrow">Research</p>
 
-        <p>
-          Please contact me at ibpalmer[at]illinois.edu
-        </p>
-        
-        <div class="bio-divider"></div>
-        
-        <h2>Research</h2>
-        
-        <h4>Working Papers</h4>
-        <ul>
-
-          <li>
-            <a class="paper-title" href="https://www.dropbox.com/scl/fi/ofuyeivs9uw0u1ugtr8l2/draft.pdf?rlkey=i0uristdfozdje8sbl4xu2l3l&st=xuylrpj2&dl=0">
-              Job Amenities, Adverse Selection, and Women's Labor Supply in Jordan
-            </a> [JMP]
-<!--             <span class="paper-title" >
-              Job Amenities, Adverse Selection, and Women's Labor Supply in Jordan
-            </span>
-            [JMP] -->
-            <br>
-            <a href="javascript:void(0);" class="abstract-link" onclick="toggleAbstract('abs1')">[+]Abstract</a>
-            <div id="abs1" class="abstract-content">
-                 In many settings, women face logistical barriers to working, such as transportation and childcare. Firms could bridge these gaps by offering job amenities like firm-provided transportation, yet these amenities remain rare in developing countries. This paper asks whether adverse selection can help explain why. When workers’ willingness to pay (WTP) for job amenities is negatively correlated with unobserved productivity, offering amenities instead of higher wages can disproportionately attract less productive workers. This dynamic may lead firms to avoid providing amenities even when WTP exceeds cost. This issue is particularly relevant in Jordan, where female employment is low and logistical barriers to work are significant. Working with a Jordanian research firm that exclusively hires female survey enumerators, I combine administrative firm records on worker productivity with a survey eliciting individual level WTP for job amenities such as childcare, transportation, and preferred pay schemes. For all amenities except childcare, the least productive workers have the highest willingness to pay. This negative correlation is particularly large for transportation, and cannot be fully explained by income, location, commuting costs, or any other observable. To assess the empirical magnitude of this adverse selection, I estimate a monopsony model that allows job amenities to increase labor supply and attract workers with different unobserved productivities. Estimates of the model demonstrate that mandating firm-provided transportation while allowing wages to adjust downward would increase employment, due to workers' large WTP for the amenity, but would lower average worker productivity via negative selection. The net effect is a reduction in firm profit, which may explain why the firm does not offer transportation. However, allowing workers to sort between a contract offering a higher wage without transportation and one offering a lower wage with transportation could simultaneously raise profit, employment, and worker welfare.
-
-
-            </div>
+        <h3 class="subgroup">Working Papers</h3>
+        <ul class="paper-list">
+          <li class="paper">
+            <a class="paper-title" href="https://www.dropbox.com/scl/fi/ofuyeivs9uw0u1ugtr8l2/draft.pdf?rlkey=i0uristdfozdje8sbl4xu2l3l&st=xuylrpj2&dl=0">Job Amenities, Adverse Selection, and Women&rsquo;s Labor Supply in Jordan</a><span class="tag">JMP</span>
+            <button class="abstract-toggle" aria-expanded="false" data-target="abs1">+ Abstract</button>
+            <div class="abstract" id="abs1"><div class="abstract-inner">In many settings, women face logistical barriers to working, such as transportation and childcare. Firms could bridge these gaps by offering job amenities like firm-provided transportation, yet these amenities remain rare in developing countries. This paper asks whether adverse selection can help explain why. When workers&rsquo; willingness to pay (WTP) for job amenities is negatively correlated with unobserved productivity, offering amenities instead of higher wages can disproportionately attract less productive workers. This dynamic may lead firms to avoid providing amenities even when WTP exceeds cost. This issue is particularly relevant in Jordan, where female employment is low and logistical barriers to work are significant. Working with a Jordanian research firm that exclusively hires female survey enumerators, I combine administrative firm records on worker productivity with a survey eliciting individual level WTP for job amenities such as childcare, transportation, and preferred pay schemes. For all amenities except childcare, the least productive workers have the highest willingness to pay. This negative correlation is particularly large for transportation, and cannot be fully explained by income, location, commuting costs, or any other observable. To assess the empirical magnitude of this adverse selection, I estimate a monopsony model that allows job amenities to increase labor supply and attract workers with different unobserved productivities. Estimates of the model demonstrate that mandating firm-provided transportation while allowing wages to adjust downward would increase employment, due to workers' large WTP for the amenity, but would lower average worker productivity via negative selection. The net effect is a reduction in firm profit, which may explain why the firm does not offer transportation. However, allowing workers to sort between a contract offering a higher wage without transportation and one offering a lower wage with transportation could simultaneously raise profit, employment, and worker welfare.</div></div>
           </li>
 
-
-            <li>
-            <a class="paper-title" href="https://www.dropbox.com/scl/fi/gweyl8gttsddahqnlhlva/draft.pdf?rlkey=0yhahtgz56avjcmbsdcnimxq2&st=4rubhooz&dl=0">
-              Economic and Social Impacts of Entering the Labor Market During a Recession: Evidence from Egypt
-            </a>
-            <!-- <span class="paper-title" >
-              Economic and Social Impacts of Entering the Labor Market During a Recession: Evidence from Egypt
-            </span> -->
-            <br>
-            <a href="javascript:void(0);" class="abstract-link" onclick="toggleAbstract('abs2')">[+]Abstract</a>
-            <div id="abs2" class="abstract-content">
-                 Relatively little is known about the effects of entering the labor market during a recession for young people in developing countries. Using novel, newly digitized historical unemployment rates from Egypt stretching back to 1968, I estimate the long run labor and marriage market effects of entering the labor market during a period of high unemployment. I find effects which reflect the same kind of economic scarring found in high income countries, but which manifest differently in this setting due to the differences in the job ladder. Men experience reductions in employment for 2 years after entry, but the long run effect on employment is positive. This unexpected increase is mostly driven by an increase in self-employment without any employees, often a form of disguised unemployment. Male recession entrants are also less likely to ever have a formal wage work job, an effect which is strongest for college graduates. In terms of family formation, both men and women turning 18 during a recession experience delays in entering marriage. However, there is some suggestive evidence that this benefits women: female recession entrants are more likely to complete secondary education and experience increased decision-making in their marriages.  
-
-            </div>
+          <li class="paper">
+            <a class="paper-title" href="https://www.dropbox.com/scl/fi/gweyl8gttsddahqnlhlva/draft.pdf?rlkey=0yhahtgz56avjcmbsdcnimxq2&st=4rubhooz&dl=0">Economic and Social Impacts of Entering the Labor Market During a Recession: Evidence from Egypt</a>
+            <button class="abstract-toggle" aria-expanded="false" data-target="abs2">+ Abstract</button>
+            <div class="abstract" id="abs2"><div class="abstract-inner">Relatively little is known about the effects of entering the labor market during a recession for young people in developing countries. Using novel, newly digitized historical unemployment rates from Egypt stretching back to 1968, I estimate the long run labor and marriage market effects of entering the labor market during a period of high unemployment. I find effects which reflect the same kind of economic scarring found in high income countries, but which manifest differently in this setting due to the differences in the job ladder. Men experience reductions in employment for 2 years after entry, but the long run effect on employment is positive. This unexpected increase is mostly driven by an increase in self-employment without any employees, often a form of disguised unemployment. Male recession entrants are also less likely to ever have a formal wage work job, an effect which is strongest for college graduates. In terms of family formation, both men and women turning 18 during a recession experience delays in entering marriage. However, there is some suggestive evidence that this benefits women: female recession entrants are more likely to complete secondary education and experience increased decision-making in their marriages.</div></div>
           </li>
 
-
-
-          <li>
-            <a class="paper-title" href="/research/w33408.pdf">
-              Housing Subsidies for Refugees: Experimental Evidence on Life Outcomes and Social Integration in Jordan
-            </a>
-            <br>
-            <span class="co-authors">              with 
-              <a href="https://emiguel.econ.berkeley.edu/" class="co-author-link">Edward Miguel</a>,  
-              <a href="https://www.sandrarozo.net/" class="co-author-link">Sandra Rozo</a>,  
-              <a href="https://cega.berkeley.edu/person/sarah-stillman/" class="co-author-link">Sarah Stillman</a>,  
-              <a href="https://emmacsmith.com/" class="co-author-link">Emma Smith</a>,  and 
-              <a href="https://www.abdulrazzaktamim.com/" class="co-author-link">Abdulrazzak Tamim</a>
-              <br>     
-            <a href="javascript:void(0);" class="abstract-link" onclick="toggleAbstract('abs3')">[+]Abstract</a>
-            <div id="abs3" class="abstract-content">
-              Refugees require assistance for basic needs like housing but local host communities may feel
-              excluded from that assistance, potentially affecting community relations. This study experimentally
-              evaluates the effect of a housing assistance program for Syrian refugees in Jordan on both the
-              recipients and their neighbors. The program offered full rental subsidies and landlord incentives for
-              housing improvements, but saw only moderate uptake, in part due to landlord reluctance. The
-              program improved short-run housing quality and lowered housing expenditures, but did not yield
-              sustained economic benefits, partly due to redistribution of aid. The program unexpectedly led to a
-              deterioration in child socio-emotional well-being, and also strained relations between Jordanian
-              neighbors and refugees. In all, housing subsidies had limited measurable benefits for refugee wellbeing
-              while worsening social cohesion, highlighting the possible need for alternative forms of aid.
-            </div>
-          </li>
-        </ul>
-        
-        <h4>Publications</h4>
-        <ul>
-
-          <li>
-            <a class="paper-title" href="/research/srlsfirstlook.pdf">
-              The Syrian Refugee Life Study: First Glance
-            </a>
-            <br>
-            <span class="co-authors">
-              with 
-              <a href="https://emiguel.econ.berkeley.edu/" class="co-author-link">Edward Miguel</a>,  
-              <a href="https://www.sandrarozo.net/" class="co-author-link">Sandra Rozo</a>,  
-              <a href="https://cega.berkeley.edu/person/sarah-stillman/" class="co-author-link">Sarah Stillman</a>,  
-              <a href="https://emmacsmith.com/" class="co-author-link">Emma Smith</a>,  and 
-              <a href="https://www.abdulrazzaktamim.com/" class="co-author-link">Abdulrazzak Tamim</a>
-              <br>                
-              <span class="journal">Oxford Review of Economic Policy</span>, 2022, (38): 625–653.</span>
-            <br>
-            <a href="javascript:void(0);" class="abstract-link" onclick="toggleAbstract('abs5')">[+]Abstract</a>
-            <div id="abs5" class="abstract-content">
-              This paper presents descriptive statistics from the first wave of the Syrian Refugee Life
-              Study (S-RLS), which began in 2020. S-RLS is a longitudinal study that tracks a representative sample
-              of approximately 2,500 registered Syrian refugee households in Jordan. It collects comprehensive data
-              on sociodemographic variables, health and well-being, preferences, social capital, attitudes, and safety
-              and crime perceptions. We use these data to document sociodemographic characteristics of Syrian
-              refugees in Jordan and compare them to representative populations in the 2016 Jordan Labor Market
-              Panel Survey (JLMPS). Our findings point to lags in basic service access, housing quality, and educational
-              attainment for Syrian refugees relative to non-refugees. The impacts of the pandemic may
-              partially explain these disparities. The data also show that most Syrian refugees have not recovered
-              economically after Covid-19 and have larger gender disparities in income, employment, prevalence of
-              child marriage, and gender attitudes than their non-refugee counterparts. Finally, mental health problems
-              were common for Syrian refugees in 2020, with depression indicated among more than 45 per cent
-              of the phone survey sample and 61 per cent of the in-person survey sample.
-            </div>
-          </li>
-        </ul>          
-
-
-        <h4>Works in Progress</h4>
-        <ul>
-          <li>
-            <span>Rationing through Intermittency: Evidence from Water Use in Jordan</span>
-            <br>
-            <span class="co-authors">
-              with
-              <a href="https://www.abdulrazzaktamim.com/" class="co-author-link">Abdulrazzak Tamim</a>
-              and
-              <a href="https://lghackett.github.io/" class="co-author-link">Lucy Hackett</a>
-            </span>
-          </li>
-
-          <li>
-            <span>Job Market Information and Refugee Return: Experimental Evidence from Jordan</span>
-            <br>
-            <span class="co-authors">
-              with
-              <a href="https://emmacsmith.com/" class="co-author-link">Emma Smith</a>
-            </span>
+          <li class="paper">
+            <a class="paper-title" href="/research/w33408.pdf">Housing Subsidies for Refugees: Experimental Evidence on Life Outcomes and Social Integration in Jordan</a>
+            <span class="co-authors">with <a href="https://emiguel.econ.berkeley.edu/">Edward Miguel</a>, <a href="https://www.sandrarozo.net/">Sandra Rozo</a>, <a href="https://cega.berkeley.edu/person/sarah-stillman/">Sarah Stillman</a>, <a href="https://emmacsmith.com/">Emma Smith</a>, and <a href="https://www.abdulrazzaktamim.com/">Abdulrazzak Tamim</a></span>
+            <button class="abstract-toggle" aria-expanded="false" data-target="abs3">+ Abstract</button>
+            <div class="abstract" id="abs3"><div class="abstract-inner">Refugees require assistance for basic needs like housing but local host communities may feel excluded from that assistance, potentially affecting community relations. This study experimentally evaluates the effect of a housing assistance program for Syrian refugees in Jordan on both the recipients and their neighbors. The program offered full rental subsidies and landlord incentives for housing improvements, but saw only moderate uptake, in part due to landlord reluctance. The program improved short-run housing quality and lowered housing expenditures, but did not yield sustained economic benefits, partly due to redistribution of aid. The program unexpectedly led to a deterioration in child socio-emotional well-being, and also strained relations between Jordanian neighbors and refugees. In all, housing subsidies had limited measurable benefits for refugee wellbeing while worsening social cohesion, highlighting the possible need for alternative forms of aid.</div></div>
           </li>
         </ul>
 
-        <h4>Pre-PhD Publications</h4>
-        <ul>
-          <li>
-            <a class="paper-title" href="/research/experientialgames.pdf">
-              Can Experiential Games and Improved Risk Coverage Raise Demand for Index Insurance? Evidence from Kenya
-            </a>
-            <br>
-            <span class="co-authors">
-              with 
-              <a href="https://ace.illinois.edu/directory/sjanzen" class="co-author-link">Sarah Janzen</a>,  
-              <a href="https://sites.google.com/site/nickmagnan/home" class="co-author-link">Nick Magnan</a>,  
-              <a href="https://fred.ifas.ufl.edu/about/directory/conner-mullally/" class="co-author-link">Conner Mullally</a>, 
-              <a href="https://www.cifor-icraf.org/staff/karl-hughes/" class="co-author-link">Karl Hughes</a>, 
-              <a href="https://www.cifor-icraf.org/speaker/judith-oduol/" class="co-author-link">Judith Odoul</a>, and
-              <a href="https://sites.google.com/site/shinwebpage/" class="co-author-link">Soye Shin</a> 
-              <br>
-              <span class="journal">American Journal of Agricultural Economics</span>, 2020, 103(1): 338–361.</span>
-            <br>
-            <a href="javascript:void(0);" class="abstract-link" onclick="toggleAbstract('abs6')">[+]Abstract</a>
-            <div id="abs6" class="abstract-content">
-              Uninsured risk impedes agricultural production, but traditional indemnity insurance is not a viable option
-              for smallholder farmers due tomarket failures.Weather index insurance is often touted as an alternative
-              risk management tool.Demand for weather index insurance, however, has been weak. One possible reason
-              is basis risk, the mismatch between index insurance payouts and individual outcomes. We estimate
-              the impact of two interventions on preferred coverage under a real index insurance product, as revealed
-              through an auction: (a) a reduction in basis risk, and (b) an experiential game that teaches farmers how
-              index insuranceworks, with anemphasis on basis risk.Weshowall farmers demonstrate strong sensitivity
-              to basis risk. The experiential game modestly increased knowledge, and experiential game participants
-              indicate higher levels of preferred insurance coverage. Although offering a lower basis risk insurance
-              product and playing an experiential game both increase preferred coverage in isolation, there is no additional
-              impact of doing both. We adapt a theoretical model of misattribution bias to demonstrate how
-              reference-dependent learning with loss aversion could lead to this unexpected result.
-            </div>
+        <h3 class="subgroup">Publications</h3>
+        <ul class="paper-list">
+          <li class="paper">
+            <a class="paper-title" href="/research/srlsfirstlook.pdf">The Syrian Refugee Life Study: First Glance</a>
+            <span class="co-authors">with <a href="https://emiguel.econ.berkeley.edu/">Edward Miguel</a>, <a href="https://www.sandrarozo.net/">Sandra Rozo</a>, <a href="https://cega.berkeley.edu/person/sarah-stillman/">Sarah Stillman</a>, <a href="https://emmacsmith.com/">Emma Smith</a>, and <a href="https://www.abdulrazzaktamim.com/">Abdulrazzak Tamim</a></span>
+            <span class="journal-line"><em>Oxford Review of Economic Policy</em>, 2022, (38): 625&ndash;653.</span>
+            <button class="abstract-toggle" aria-expanded="false" data-target="abs5">+ Abstract</button>
+            <div class="abstract" id="abs5"><div class="abstract-inner">This paper presents descriptive statistics from the first wave of the Syrian Refugee Life Study (S-RLS), which began in 2020. S-RLS is a longitudinal study that tracks a representative sample of approximately 2,500 registered Syrian refugee households in Jordan. It collects comprehensive data on sociodemographic variables, health and well-being, preferences, social capital, attitudes, and safety and crime perceptions. We use these data to document sociodemographic characteristics of Syrian refugees in Jordan and compare them to representative populations in the 2016 Jordan Labor Market Panel Survey (JLMPS). Our findings point to lags in basic service access, housing quality, and educational attainment for Syrian refugees relative to non-refugees. The impacts of the pandemic may partially explain these disparities. The data also show that most Syrian refugees have not recovered economically after Covid-19 and have larger gender disparities in income, employment, prevalence of child marriage, and gender attitudes than their non-refugee counterparts. Finally, mental health problems were common for Syrian refugees in 2020, with depression indicated among more than 45 per cent of the phone survey sample and 61 per cent of the in-person survey sample.</div></div>
           </li>
-
-
         </ul>
 
-<!-- 
-“Housing Subsidies for Refugees: Experimental Evidence on Life Outcomes and Social Integration in Jordan”
-(w/ Edward Miguel, Sandra Rozo, Sarah Stillman, Emma Smith, and Abdulrazzak Tamim) NBER Working
-Paper 33408 . -->
+        <h3 class="subgroup">Works in Progress</h3>
+        <ul class="paper-list">
+          <li class="paper">
+            <span class="paper-title">Rationing through Intermittency: Evidence from Water Use in Jordan</span>
+            <span class="co-authors">with <a href="https://www.abdulrazzaktamim.com/">Abdulrazzak Tamim</a> and <a href="https://lghackett.github.io/">Lucy Hackett</a></span>
+          </li>
+          <li class="paper">
+            <span class="paper-title">Job Market Information and Refugee Return: Experimental Evidence from Jordan</span>
+            <span class="co-authors">with <a href="https://emmacsmith.com/">Emma Smith</a></span>
+          </li>
+        </ul>
 
-<!--         <h4>Resting Papers</h4>
-        <ul>
-          <li>
-            <a class="paper-title" href="https://ckwroblewski.github.io/research/actw_feb2019.pdf">
-              Searching for Yield Abroad: Risk-Taking Through Foreign Investment in U.S. Bonds
-            </a>
-            <br>
-            <span class="co-authors">with <a href="https://www.federalreserve.gov/econres/john-ammer.htm" class="co-author-link">John Ammer</a>, <a href="https://som.yale.edu/faculty-research/faculty-directory/stijn-claessens" class="co-author-link">Stijn Claessens</a>, and <a href="https://www.federalreserve.gov/econres/alexandra-m-tabova.htm" class="co-author-link">Alexandra Tabova</a>, February 2019</span>
-            <br>
-            <a href="javascript:void(0);" class="abstract-link" onclick="toggleAbstract('abs5')">[+]Abstract</a>
-            <div id="abs5" class="abstract-content">
-              The much discussed risk-taking effects of low interest rates have been hard to document due to a paucity of data and challenges in identification. Analyzing unique,
-              comprehensive, security-level data that capture 40 countries' entire investment in U.S.
-              corporate bonds allows us to accurately characterize changes in riskiness and to help
-              identify the causal mechanism. We show that declining home-country interest rates
-              lead investors to tilt their portfolios toward riskier bonds in non-crises times. These
-              changes occur entirely among investment-grade bonds. A 200 basis points decline leads
-              investors to seek a 43 additional basis points yield pick-up, with effects that are even
-              stronger when home interest rates reach very low levels. International spillovers of
-              interest rates thus include risk taking that involves changes in the composition of bond
-              portfolios.
-            </div>
+        <h3 class="subgroup">Pre-PhD Publications</h3>
+        <ul class="paper-list">
+          <li class="paper">
+            <a class="paper-title" href="/research/experientialgames.pdf">Can Experiential Games and Improved Risk Coverage Raise Demand for Index Insurance? Evidence from Kenya</a>
+            <span class="co-authors">with <a href="https://ace.illinois.edu/directory/sjanzen">Sarah Janzen</a>, <a href="https://sites.google.com/site/nickmagnan/home">Nick Magnan</a>, <a href="https://fred.ifas.ufl.edu/about/directory/conner-mullally/">Conner Mullally</a>, <a href="https://www.cifor-icraf.org/staff/karl-hughes/">Karl Hughes</a>, <a href="https://www.cifor-icraf.org/speaker/judith-oduol/">Judith Odoul</a>, and <a href="https://sites.google.com/site/shinwebpage/">Soye Shin</a></span>
+            <span class="journal-line"><em>American Journal of Agricultural Economics</em>, 2020, 103(1): 338&ndash;361.</span>
+            <button class="abstract-toggle" aria-expanded="false" data-target="abs6">+ Abstract</button>
+            <div class="abstract" id="abs6"><div class="abstract-inner">Uninsured risk impedes agricultural production, but traditional indemnity insurance is not a viable option for smallholder farmers due to market failures. Weather index insurance is often touted as an alternative risk management tool. Demand for weather index insurance, however, has been weak. One possible reason is basis risk, the mismatch between index insurance payouts and individual outcomes. We estimate the impact of two interventions on preferred coverage under a real index insurance product, as revealed through an auction: (a) a reduction in basis risk, and (b) an experiential game that teaches farmers how index insurance works, with an emphasis on basis risk. We show all farmers demonstrate strong sensitivity to basis risk. The experiential game modestly increased knowledge, and experiential game participants indicate higher levels of preferred insurance coverage. Although offering a lower basis risk insurance product and playing an experiential game both increase preferred coverage in isolation, there is no additional impact of doing both. We adapt a theoretical model of misattribution bias to demonstrate how reference-dependent learning with loss aversion could lead to this unexpected result.</div></div>
           </li>
-        </ul> -->
-        
-<!--         <h4>Policy Notes</h4>
-        <ul>
-          <li>
-            <a class="paper-title" href="https://ckwroblewski.github.io/research/atw_ifdp_note.pdf">
-              "Low-for-Long" Interest Rates and Portfolio Shifts in Advanced Foreign Economies
-            </a>
-            <br>
-            <span class="co-authors">with <a href="https://www.federalreserve.gov/econres/john-ammer.htm" class="co-author-link">John Ammer</a> and <a href="https://www.federalreserve.gov/econres/alexandra-m-tabova.htm" class="co-author-link">Alexandra Tabova</a>, December 2016</span>
-          </li>
-        </ul> -->
-      </div>
-    </div>
-    
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      &copy; 2026 Bailey Palmer &middot; School of Labor &amp; Employment Relations &amp; Dept. of Economics, University of Illinois Urbana&ndash;Champaign &middot; <a href="mailto:ibpalmer@illinois.edu">ibpalmer [at] illinois.edu</a>
+    </footer>
+
     <script>
-      // Set the initial display state for all abstract containers on page load
-      document.addEventListener('DOMContentLoaded', function() {
-        const abstractContainers = document.querySelectorAll('.abstract-content');
-        abstractContainers.forEach(function(container) {
-          container.style.display = 'none';
+      document.querySelectorAll('.abstract-toggle').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var target = document.getElementById(btn.getAttribute('data-target'));
+          var open = target.classList.toggle('open');
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          btn.textContent = open ? '− Abstract' : '+ Abstract';
         });
       });
-      
-      function toggleAbstract(id) {
-        const el = document.getElementById(id);
-        const currentDisplay = el.style.display;
-        
-        if (currentDisplay === 'none' || currentDisplay === '') {
-          el.style.display = 'block';
-          // Change the link text to indicate collapse option
-          event.target.textContent = '[-]Abstract';
-        } else {
-          el.style.display = 'none';
-          // Change the link text to indicate expand option
-          event.target.textContent = '[+]Abstract';
-        }
-      }
     </script>
   </body>
 </html>
